@@ -1,1 +1,1 @@
-
+J'ai réalisé l'expérience et pour le premier essai et mon doigt semblais se déplacer d'environ 1 doigt par rapport au mur; Puis à 1m du mur il semblait se déplacer de 2 doigt par rapport au mur et enfin à 3m il semblait se déplacer d'environ 7 doigts. Je costate plus la distance augmente, plus loin le doigt semble se déplacer.
