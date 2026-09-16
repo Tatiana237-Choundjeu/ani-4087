@@ -1,5 +1,5 @@
 | Etapes | Ordre de grandeur | Source | Ordre de grandeur trouvé |
-|---|---:|---|
+|---|---|---|---|
 |Les capteurs mesurent le mouvement|	1 à 2 ms| https://www.researchgate.net/publication/339921356_A_Simple_Video-Based_Technique_for_Measuring_Latency_in_Virtual_Reality_or_Teleoperation  | 1ms |
 | Le système transmet la mesure|	1 à 3 ms| https://www.researchgate.net/publication/339921356_A_Simple_Video-Based_Technique_for_Measuring_Latency_in_Virtual_Reality_or_Teleoperation  | 2ms |
 | Votre application décide et dessine| 5 à 11 ms | Je n'ai pas trouvé |   |
