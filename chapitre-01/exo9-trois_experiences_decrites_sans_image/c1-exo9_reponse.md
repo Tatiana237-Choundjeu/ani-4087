@@ -1,4 +1,4 @@
-# Trois applications de réalité virtuelle
+Trois applications de réalité virtuelle
 
 ## 1. Walkabout Mini Golf — Golf
 
