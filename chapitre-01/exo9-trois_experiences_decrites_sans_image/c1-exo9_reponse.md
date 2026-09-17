@@ -1,6 +1,6 @@
-Trois applications de réalité virtuelle
+# Trois applications de réalité virtuelle
 
-## 1. Walkabout Mini Golf — Golf
+1. Walkabout Mini Golf — Golf
 
 1. Le joueur peut jouer **assis ou debout**.
 2. Il n'est donc pas nécessaire de rester debout pendant toute la partie.
