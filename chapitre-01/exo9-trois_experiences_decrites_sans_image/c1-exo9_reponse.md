@@ -42,6 +42,6 @@ Classement
 
 Classsons du **moins au plus susceptible de provoquer le mal des transports** :
 
-1. **Walkabout Mini Golf** — déplacements virtuels limités et possibilité de jouer assis.
-2. **Beat Saber** — beaucoup de mouvements corporels, mais peu de déplacement virtuel continu.
-3. **Half-Life: Alyx** — possibilité de déplacement et de rotation virtuels continus, surtout avec le mode de locomotion continue.
+1. **Walkabout Mini Golf** : déplacements virtuels limités et possibilité de jouer assis.
+2. **Beat Saber** : beaucoup de mouvements corporels, mais peu de déplacement virtuel continu.
+3. **Half-Life: Alyx** : possibilité de déplacement et de rotation virtuels continus, surtout avec le mode de locomotion continue.
