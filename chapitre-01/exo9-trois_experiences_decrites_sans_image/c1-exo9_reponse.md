@@ -1,6 +1,6 @@
-# Trois applications de réalité virtuelle
+Trois applications de réalité virtuelle
 
-1. Walkabout Mini Golf — Golf
+A. Walkabout Mini Golf — Golf
 
 1. Le joueur peut jouer **assis ou debout**.
 2. Il n'est donc pas nécessaire de rester debout pendant toute la partie.
@@ -13,7 +13,7 @@
 9. Le joueur peut donc limiter fortement les mouvements artificiels de la caméra.
 10. **Cela devrait être le moins susceptible des trois de provoquer le mal des transports**, car le déplacement virtuel peut être fortement limité.
 
-## 2. Beat Saber — Jeu de rythme
+B. Beat Saber — Jeu de rythme
 
 1. Le joueur joue principalement **debout**.
 2. Il doit déplacer rapidement ses deux bras.
@@ -26,7 +26,7 @@
 9. Cela limite le conflit entre ce que voient les yeux et ce que ressent le corps.
 10. **Le risque de mal des transports devrait donc être intermédiaire**, même si l'activité physique peut être assez intense.
 
-## 3. Half-Life: Alyx — Jeu d'action / aventure
+C. Half-Life: Alyx — Jeu d'action / aventure
 
 1) Le joueur peut jouer **assis ou debout**.
 2) Il peut explorer l'environnement en utilisant ses contrôleurs.
@@ -38,8 +38,7 @@
 8) Ce décalage entre le mouvement visuel et le mouvement réel peut favoriser le mal des transports.
 9) La téléportation réduit ce problème car elle évite de simuler le déplacement continu.
 10) **Parmi ces trois applications, c'est donc celle qui peut être la plus susceptible de provoquer le mal des transports lorsque le déplacement continu est utilisé.**
-
-## Classement
+Classement
 
 Classsons du **moins au plus susceptible de provoquer le mal des transports** :
 
