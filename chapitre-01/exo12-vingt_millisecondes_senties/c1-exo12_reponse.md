@@ -1,4 +1,4 @@
-# Mon Code:
+Mon Code:
 
 
 import pygame
