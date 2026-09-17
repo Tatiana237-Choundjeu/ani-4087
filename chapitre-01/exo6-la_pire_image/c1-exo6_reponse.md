@@ -1,4 +1,4 @@
-Mon code
+Mon code:
 
 
 import pygame
