@@ -42,3 +42,13 @@ Daemon
 ------------------------------------------------------------
 Status: Not running
 ```
+
+# Ce qu'elle m'apprend et que le fichier de projet ne disait pas explicitement:
+
+Elle m'apprend que le workspace s'appelle chapitre2, qu'il utilise le fichier chapitre2.jenga, qu'il possède les configurations Debug et Release, et qu'il cible Windows et Android avec les architectures x86_64 et arm64.
+
+Elle indique également que le projet exercice1 est une application console en C++, sans tests déclarés et considérée comme externe.
+
+Enfin, elle indique les toolchains disponibles (host-gcc et mingw) ainsi que l'état du daemon Jenga, qui n'est pas en fonctionnement.
+
+le fichier .jenga décrit la configuration, alors que jenga info donne une vue d'ensemble de ce que Jenga a réellement compris et détecté dans le workspace.
