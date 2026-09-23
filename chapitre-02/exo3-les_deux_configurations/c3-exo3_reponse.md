@@ -1,3 +1,5 @@
+# - Construction avec Debug:
+```
 Loading workspace...
 
 Configuration: debug
@@ -28,6 +30,39 @@ Projects Built:  1/1
 Time:           0.97s
 Status:         ✓ SUCCESS
 ════════════════════════════════════════════════════════════════════════════════
+```
 
 
-E:\Jenga\chapitre2\exercice1\src>
+# - Construction avec Release:
+```
+Loading workspace...
+
+Configuration: release
+Target:        Windows x86_64
+Toolchain:     mingw
+
+Build Order (1 projects):
+  1. exercice1 [CONSOLE_APP]
+
+
+╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+║  Project: exercice1                                                       Kind: CONSOLE_APP  ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+
+ℹ Found 1 source file(s)
+✓   [1/1] Compiled: main.cpp
+ℹ Linking...
+✓ Built: Build\Bin\release-Windows\exercice1\exercice1.exe
+
+┌──────────────────────────────────────────────────────────────────────────────────────────────┐
+│  ✓ Build Successful                                                             Time: 1.56s  │
+└──────────────────────────────────────────────────────────────────────────────────────────────┘
+
+════════════════════════════════════════════════════════════════════════════════
+                                BUILD COMPLETED                                 
+════════════════════════════════════════════════════════════════════════════════
+Projects Built:  1/1
+Time:           1.56s
+Status:         ✓ SUCCESS
+════════════════════════════════════════════════════════════════════════════════
+```
