@@ -6,7 +6,9 @@ int main() {
     std::cout << "Hello from exercice1!" << std::endl;
     return 0;
 }
-´´´
+
+
+
 
 # sortie:
 
