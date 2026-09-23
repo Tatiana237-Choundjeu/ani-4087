@@ -1,11 +1,20 @@
 # fichier de coce :
 ```
-#include <iostream>
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-int main() {
-    std::cout << "Hello from exercice1!" << std::endl;
-    return 0;
-}
+# exercice1 - Jenga Project (inclus dans le workspace via include())
+
+from Jenga import *
+
+with project("exercice1"):
+    consoleapp()
+    language("C++")
+    cppdialect("C++17")
+    location(".")
+    files(["src/**.cpp", "include/**.hpp"])
+
+
 ```
 
 
