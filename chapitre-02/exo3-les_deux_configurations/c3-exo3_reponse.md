@@ -70,5 +70,7 @@ Status:         ✓ SUCCESS
 # Comparons:
 |    | Debug | Release |
 |---|---|---|
-|Taille|   |   |
+|Taille|60.2 Ko|60.2 Ko|
 |Temps |0.97s|1.56s|
+
+On constate que release a pris plus de temps que Debug et ils ont la même taille
