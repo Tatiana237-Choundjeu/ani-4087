@@ -1,1 +1,16 @@
+# Journal du premier déploiement
+
+| Symptôme                                                                      | Ce que j’ai cru                                                                                    | Ce que c’était réellement                                                                                                                                                                 | Temps perdu    |
+| ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| `git clone .` échoue a échoué la première fois                | Je pensais qu’il y avait un problème dans mon code.      | Le problème venait de la connexion réseau                                                                                                | Environ 30 min |
+| `jenga build` indique qu’aucun fichier `.jenga` n’est trouvé                  | Je pensais que Jenga ne reconnaissait pas mon projet.                                              | Le fichier workspace/projet n’était pas nommé comme attendu.                                                                                                                     | Environ 20 min |
+| Le programme ne se construit pas correctement après modification des fichiers | Je pensais que mon code C++ contenait forcément une erreur.                                        | Le problème venait de la configuration du projet et de la manière dont les fichiers étaient déclarés dans le projet.                                                                      | Environ 30 min |
+| Le programme fonctionne en Debug mais les performances sont mauvaises         | Je pensais que mon programme était simplement lent.                                                | Le mode Debug ajoute des informations et vérifications qui peuvent fortement ralentir l’exécution. Les performances doivent être mesurées dans une configuration adaptée à la production. | Environ 15 min |
+| La compilation ou l’édition de liens signalait une dépendance manquante       | Je pensais que le compilateur allait automatiquement trouver toutes les bibliothèques nécessaires. | Une dépendance nécessaire à l’édition de liens doit être correctement déclarée et disponible pour le projet.                                                                              | Environ 25 min |
+| Je ne savais pas comment modifier ou organiser correctement le workspace      | Je pensais qu’il fallait modifier directement les fichiers générés.                                | Le workspace et les fichiers du projet ont chacun un rôle précis ; il faut modifier la configuration source plutôt que les fichiers générés.                                              | Environ 20 min |
+
+## Bilan
+
+Ce premier déploiement m’a montré que lorsqu’un programme ne fonctionne pas, le problème ne vient pas forcément du code. Il peut venir de la configuration du projet, des dépendances, du réseau, du compilateur, de l’édition de liens ou du mode de compilation.
+
 
