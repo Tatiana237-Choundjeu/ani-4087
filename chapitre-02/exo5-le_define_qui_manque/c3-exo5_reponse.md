@@ -141,7 +141,8 @@ Echecs (1) — a corriger :
 
 ```
 
-# J'aurais su diagnostiquer la première erreur sans cet exercice, car le compilateur indique clairement qu'aucune fonction `afficher()` ne correspond à l'appel effectué et précise qu'un argument est attendu.
+# Conclusion
+J'aurais su diagnostiquer la première erreur sans cet exercice, car le compilateur indique clairement qu'aucune fonction `afficher()` ne correspond à l'appel effectué et précise qu'un argument est attendu.
 
 En revanche, l'erreur `undefined reference to 'MonModule::afficher()'` est une erreur d'édition de liens. Je l'aurais eu plus de difficulté à diagnostiquer sans cet exercice, car le fichier se compile correctement mais le symbole recherché n'est pas trouvé lors de l'édition de liens.
 
