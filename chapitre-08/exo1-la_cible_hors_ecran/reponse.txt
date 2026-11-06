@@ -1,0 +1,23 @@
+Images paires et impaires :
+
+Avec deux images et les modes DPDPDPDP, les trames impaires affichent les positions 10, 30, 50 et 70 mm. Les trames paires répètent respectivement les positions 10, 30, 50 et 70 mm de la trame impaire précédente. Les sauts alternent entre 0 et 20 mm. On observe donc un tremblement, car le saut minimum est différent du saut maximum.
+
+Avec une seule image :
+
+Pour une chaîne contenant une seule image, les trois modes A, P et D désignent toujours le même emplacement. Voici la sortie obtenue avec l'entrée 1 8 0 10 et les modes DPDPDPDP :
+
+1 10 -
+2 20 10
+3 30 10
+4 40 10
+5 50 10
+6 60 10
+7 70 10
+8 80 10
+SAUT MIN 10
+SAUT MAX 10
+TREMBLE NON
+
+La bonne lecture :
+
+La bonne lecture de l'index est celle effectuée après ReleaseImage, c'est-à-dire en mode D. À ce moment, la formule (prochaine + n - 1) % n permet de retrouver l'index de la dernière image relâchée. On soumet ainsi l'image qui vient réellement d'être peinte, ce qui évite d'afficher une image de la trame précédente.
