@@ -1,0 +1,5 @@
+Décalage ou tête : Le déplacement du joueur doit être réalisé en modifiant le décalage du monde, et non la pose de la tête. La tête représente la position et l'orientation réelles de l'utilisateur, mesurées par le casque. Le décalage permet de déplacer le joueur dans la salle tout en conservant les informations fournies par le suivi du casque.
+
+Ce que la tête casserait : Si on modifiait directement la pose de la tête, on perturberait le suivi du casque et la prédiction de ses mouvements. Le moteur recevrait une position artificiellement modifiée et pourrait mal prévoir les prochains mouvements. Cela provoquerait des incohérences entre les mouvements réels de l'utilisateur et l'environnement virtuel.
+
+Les diagonales : Dans ce modèle, un déplacement diagonal fait parcourir une distance de √2 fois le pas normal, soit environ 1,414 fois plus vite (environ 41,4 % de vitesse supplémentaire). Pour éviter cet avantage, il faut normaliser le vecteur de déplacement diagonal en divisant ses composantes par √2 lorsque les deux directions sont actives. Ainsi, la vitesse reste constante quelle que soit la direction choisie.
