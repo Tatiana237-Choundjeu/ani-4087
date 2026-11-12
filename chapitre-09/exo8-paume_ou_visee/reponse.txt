@@ -1,22 +1,5 @@
-TETE 1
-PAUME D 180 1400 -250
-VISEE D 180 1450 -400
-PAUME G -180 1400 -250
-VISEE G -180 1450 -400
-SAISIE PAUME 1
-SAISIE VISEE 2
-TETE 2
-PAUME D 750 1400 320
-VISEE D 600 1450 320
-PAUME G 750 1400 680
-VISEE G 600 1450 680
-SAISIE PAUME AUCUNE
-SAISIE VISEE AUCUNE
-TETE 3
-PAUME D 250 1400 180
-VISEE D 400 1450 180
-PAUME G 250 1400 -180
-VISEE G 400 1450 -180
-SAISIE PAUME 4
-SAISIE VISEE 4
-ECART 158
+La distance : La distance entre la paume droite et la visée droite est de 158 mm. Elle est obtenue par la formule de distance dans l'espace : √((180 - 180)² + (-300 + 250)² + (-250 + 400)²) = √25000 ≈ 158 mm. Cette distance reste constante dans le simulateur, même lorsque la tête tourne ou se déplace.
+
+L'angle : L'angle entre les deux directions avant vaut 0° dans ce simulateur, car la paume et la visée conservent toutes les deux l'orientation de la tête. Elles pointent donc dans la même direction. Sur un vrai casque, cet angle ne serait pas nécessairement nul, car la position de la paume et l'orientation de la visée sont déterminées séparément par les capteurs et le calibrage du matériel.
+
+Pour pointer : Il faut utiliser la visée plutôt que la paume, car elle représente la direction dans laquelle l'utilisateur pointe. La paume sert à saisir et à tenir les objets. Les résultats montrent que, pour la première tête, la paume peut saisir l'objet 1 tandis que la visée peut saisir l'objet 2. Pour la troisième tête, les deux peuvent atteindre l'objet 4. Il est donc important de distinguer ces deux fonctions.
