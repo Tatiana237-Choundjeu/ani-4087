@@ -1,0 +1,5 @@
+Ce qui change : Sur un vrai casque, seule la table de correspondance changerait. Elle permettrait d'associer chaque usage à la commande physique appropriée au matériel utilisé. Par exemple, l'action tirer pourrait être associée à un bouton de manette, à une gâchette ou à une autre commande selon le casque.
+
+Aucun nom de bouton : Le reste du programme utilise uniquement les noms des actions et leurs usages. Il détecte les nouveaux appuis, mémorise les états précédents et déclenche les actions correspondantes. Les noms des boutons physiques comme SOURIS_G, SOURIS_D ou ESPACE apparaissent uniquement dans les tables de correspondance, jamais dans la logique générale du programme.
+
+L'action inactive : Une action est inactive lorsque son usage ne possède aucune commande dans la table de correspondance. Ici, saisir_g est inactive parce que GRAB_LEFT n'est présent dans aucune des deux tables. Elle ne peut donc jamais produire un nouvel appui. Il est important de signaler cette situation au démarrage afin de repérer une commande manquante ou une fonction indisponible sur le matériel.
