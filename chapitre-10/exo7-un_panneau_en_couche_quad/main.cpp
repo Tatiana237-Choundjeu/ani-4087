@@ -1,7 +1,5 @@
-```cpp
 #include <iostream>
 #include <cmath>
-#include <string>
 
 using namespace std;
 
@@ -18,17 +16,14 @@ void tourner(long long &x, long long &z, int k) {
     switch (k) {
         case 0:
             break;
-
         case 1:
             x = ancienZ;
             z = -ancienX;
             break;
-
         case 2:
             x = -ancienX;
             z = -ancienZ;
             break;
-
         case 3:
             x = -ancienZ;
             z = ancienX;
@@ -36,7 +31,7 @@ void tourner(long long &x, long long &z, int k) {
     }
 }
 
-// Composer une pose LOCAL avec l'ancre pour obtenir STAGE
+// Transformer une pose LOCAL en pose STAGE
 Pose composer(Pose ancre, Pose panneau) {
     tourner(panneau.x, panneau.z, ancre.k);
 
@@ -50,7 +45,7 @@ Pose composer(Pose ancre, Pose panneau) {
     return resultat;
 }
 
-// Calculer et afficher les quatre coins du panneau
+// Afficher les quatre coins du panneau
 void afficherCoins(Pose centre, long long w, long long h) {
     long long demiW = w / 2;
     long long demiH = h / 2;
@@ -95,24 +90,22 @@ int main() {
             >> panneau.x >> panneau.y >> panneau.z
             >> panneau.k >> w >> h;
 
-        // Déterminer l'espace du panneau
+        // Un panneau sans espace est considéré comme LOCAL
         bool estLocal = (espace == 'L' || espace == '-');
 
         Pose centre = panneau;
 
-        // Convertir le centre en STAGE si nécessaire
+        // Conversion vers STAGE si le panneau est LOCAL
         if (estLocal) {
             centre = composer(ancre, panneau);
         }
 
-        // Afficher les informations du panneau
         cout << "PANNEAU " << i << " "
              << (estLocal ? "LOCAL" : "STAGE") << '\n';
 
-        // Afficher les quatre coins
         afficherCoins(centre, w, h);
 
-        // Calculer la distance entre le centre et l'œil
+        // Calcul de la distance entre le centre et l'œil
         long long dx = centre.x - oeil.x;
         long long dy = centre.y - oeil.y;
         long long dz = centre.z - oeil.z;
@@ -130,4 +123,3 @@ int main() {
 
     return 0;
 }
-```
