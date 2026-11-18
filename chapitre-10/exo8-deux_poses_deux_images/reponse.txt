@@ -1,0 +1,5 @@
+Négligeable : Les résultats donnent une moyenne de 5 mm pour l'écart de position et de 770 millièmes de degré, soit 0,77°, pour l'écart angulaire. Ces valeurs moyennes restent relativement faibles. Cependant, certains écarts individuels sont supérieurs à un degré : 1,1° pour la première image et 2,2° pour la troisième. On peut donc considérer que l'écart moyen est faible, mais que certains mouvements ne sont pas négligeables.
+
+Seuil : Pour que l'écart de lacet dépasse un degré pendant un intervalle de 11 millisecondes, la tête doit tourner à une vitesse supérieure à 1° / 0,011 s. Le calcul donne 90,91°/s environ. Ainsi, à partir d'une vitesse supérieure à environ 90,91 degrés par seconde, l'écart angulaire dépasse un degré avec ce même intervalle de temps.
+
+Ce que corrige le compositeur : Le compositeur corrige le décalage entre la pose de la tête qui a servi au rendu et la pose réelle relue à la fin de la trame. Il utilise la pose du rendu comme référence et la pose plus récente pour effectuer une reprojection de l'image. Cela permet de compenser le mouvement de la tête survenu entre le rendu et l'affichage, afin de stabiliser l'image dans le casque.
